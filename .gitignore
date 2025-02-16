@@ -1,0 +1,34 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Environment variable files
+.env
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# Vite build folder
+dist/
+
+# IDE & Editor folders
+.vscode/
+.idea/
+
+# Optional: ignore local database files (if any)
+*.sqlite
